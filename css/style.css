@@ -1,0 +1,22 @@
+:root{
+    --meinColor : #1E1B00;
+    --aksenColor : #80B300;
+    --txsColor : #F0A828;
+
+}
+
+body{
+    /* background-color: var(--meinColor); */
+    background: url(../Image/bg.png) no-repeat center center;
+    background-color: var(--meinColor);
+    background-size: cover;
+    min-height: 900px;
+    font-family: 'ubuntu',sans-serif;
+}
+/* navbar */
+.nav-link.active{
+    color: var(--aksenColor) !important;
+    font-weight: 700;
+}
+
+/* selesai navbar */
