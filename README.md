@@ -41,8 +41,11 @@ Kalo ada yang nggak jalan, gue tulis di bagian **Limitations** — bukan gue die
 
 ---
 
+---
+
 <div align="center">
 
+<sub>Semua tool di sini dirawat <b>LALA</b>.</sub>
 <sub>Jalanin satu, kalo kepake bintangin. Kalo nggak, yo wis.</sub>
 
 </div>
