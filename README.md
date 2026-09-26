@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Coding-No/Coding-No/main/assets/desa-senja.png" alt="Desa Senja — pixel art sawah, gunung, rumah joglo, kerbau & petani" width="100%">
+<img src="https://raw.githubusercontent.com/Coding-No/Coding-No/main/assets/desa-senja.gif" alt="Desa Senja — sawah, gunung, rumah joglo, kerbau, petani" width="100%">
 
 <br>
 
@@ -8,63 +8,34 @@
 
 **Builder tools that just work — Windows · Termux · Linux · Kali.**
 
-<br>
-
-`wajah kota di layar, tapi halaman tetep sawah.`
+<sub>kota bikin capek, jadi halamannya gue tanemin sawah.</sub>
 
 <br>
 
-[![Tools](https://img.shields.io/badge/tools-6-8a3a32?style=flat-square&labelColor=2c1f1a)](#-yang-gue-tanam)
-[![Python](https://img.shields.io/badge/python-stdlib_only-dab864?style=flat-square&labelColor=2c1f1a)](#-yang-gue-tanam)
-[![Platform](https://img.shields.io/badge/platform-5_os-54a0a8?style=flat-square&labelColor=2c1f1a)](#-yang-gue-tanam)
-[![License](https://img.shields.io/badge/license-MIT-dab864?style=flat-square&labelColor=2c1f1a)](#-lisensi)
-
-</div>
-
-```
-╔════════════════════════════════════════════════════════════════════════════════╗
-║  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ║
-║                                                                                ║
-║        .-"""-.        /\        /\        /\                     o             ║
-║       /       \    __/  \__  __/  \__  __/  \__                  |             ║
-║      |  _   _  |  /        \/        \/        \                / \            ║
-║      | |_| |_| | |   GUNUNG  KAPUR  BANYUMAS    |              /   \           ║
-║      |    o    |  \_____________________________/            /     \          ║
-║      |_________|                                               |  o  |         ║
-║      //  |  \\            ~~~~~~~ ~~~~~~~~~~~~~ ~~~~~~~~       | |   |         ║
-║                            ~ ~ ~ ~  ~ ~ ~ ~ ~ ~                |_|___|_        ║
-║                                                                                ║
-║      /\_/\     .---.    .---.   .---.     ____        ~~~~~~                  ║
-║     ( o.o )   / ooo \  / ooo \ / ooo \   |padi|      ~~ kolam ~~               ║
-║      > ^ <   /|     |\|     |/|     |\   |____|       ~~~~~~~~                 ║
-║       /|\      |  |  |  |  |  |  |  |    |  |  |                              ║
-║      / | \     |  |  |  |  |  |  |  |    |__|__|                              ║
-║                                                                                ║
-║  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ║
-║                    🌾  DESA SENJA  ·  PIXEL  ·  8-BIT  🌾                      ║
-╚════════════════════════════════════════════════════════════════════════════════╝
-```
-
-<div align="center">
-
-### 🌾 Yang gue tanam
-
-| | Tool | Buat apa | OS |
-|---|---|---|---|
-| 🔓 | **[link-unlocker](https://github.com/Coding-No/link-unlocker)** | Keluarin link MediaFire mentah dari safelink. **0 dependency.** | semua |
-| 🧰 | **[safelink-toolkit](https://github.com/Coding-No/safelink-toolkit)** | Tembus gate safelink 5 lapis + Laravel gate. | semua |
-| 🚪 | **[antibot-unwall](https://github.com/Coding-No/antibot-unwall)** | Ambil halaman yang diblok Cloudflare/bot-wall. | semua |
-| 📦 | **[shipping-label-db](https://github.com/Coding-No/shipping-label-db)** | 966 label kirim → SQLite + pencarian FTS5. | semua |
-| 📱 | **[android-bt-diag](https://github.com/Coding-No/android-bt-diag)** | Diagnosa error Bluetooth Qualcomm dari logcat. | Android |
-| 🇮🇩 | **[bahasa-nusantara](https://github.com/Coding-No/bahasa-nusantara)** | Jawa (ngoko/krama/inggil) + Sunda + 10 bahasa daerah. | semua |
-
-<sub>Nol pip install. Nol npm install. Nol curl. Python stdlib + otak.</sub>
+![tools](https://img.shields.io/badge/tools-6-8a3a32?style=flat-square&labelColor=2c1f1a)
+![deps](https://img.shields.io/badge/deps-nol-dab864?style=flat-square&labelColor=2c1f1a)
+![os](https://img.shields.io/badge/os-5-54a0a8?style=flat-square&labelColor=2c1f1a)
 
 </div>
 
 ---
 
-## 🚜 Cara narik
+## 🚜 Isine
+
+| | Tool | Gunanya | Jalan di |
+|---|---|---|---|
+| 🔓 | **[link-unlocker](https://github.com/Coding-No/link-unlocker)** | Narik link MediaFire asli dari safelink. Nol install apa-apa. | semua |
+| 🧰 | **[safelink-toolkit](https://github.com/Coding-No/safelink-toolkit)** | Tembus gate safelink berlapis, sampe Laravel. | semua |
+| 🚪 | **[antibot-unwall](https://github.com/Coding-No/antibot-unwall)** | Ambil halaman yang dikunci Cloudflare. | semua |
+| 📦 | **[shipping-label-db](https://github.com/Coding-No/shipping-label-db)** | 966 label kirim → SQLite, bisa dicari. | semua |
+| 📱 | **[android-bt-diag](https://github.com/Coding-No/android-bt-diag)** | Baca error Bluetooth Qualcomm dari logcat. | Android |
+| 🇮🇩 | **[bahasa-nusantara](https://github.com/Coding-No/bahasa-nusantara)** | Jawa (ngoko/krama/inggil) + Sunda + 10 bahasa daerah. | semua |
+
+Cuma butuh Python. Nol pip install, nol npm, nol curl. Buka, jalan.
+
+---
+
+## ⚙️ Coba dulu
 
 ```bash
 git clone https://github.com/Coding-No/link-unlocker
@@ -75,28 +46,24 @@ src\link-unlocker.bat mf <key>  # Windows
 
 ---
 
-## 📜 Prinsip
+## 🛖 Cara gue ngerjain
 
-```
-🌱  Satu file kalo bisa, satu folder kalo terpaksa
-🌾  Nol dependency > gampang install
-🚜  Jalan dari HP kentang sampe server produksi
-🛖  README jujur nulis "Limitations", bukan cuma "Features"
-```
+- Satu file kalo bisa. Satu folder kalo kepepet.
+- Nol dependency. Yang ribet dipasang = nggak kepasang.
+- Gue tes di HP kentang dulu. Kalo di situ jalan, di server juga jalan.
+- Kalo ada yang belum bisa, gue tulis di README. Bukan gue diemin.
 
 ---
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Coding-No/Coding-No/main/assets/desa-senja-malam.gif" alt="Desa Senja malam — bulan, bintang, jendela yang masih nyala" width="100%">
+
 <br>
 
-<img src="https://raw.githubusercontent.com/Coding-No/Coding-No/main/assets/desa-senja-malam.png" alt="Desa Senja versi malam — bintang, bulan, jendela nyala" width="100%">
+*sebagian rumah udah mati lampu. yang ini belum.*
 
-<br><br>
-
-`>> sawah tetep ijo, terminal tetep jalan <<`
-
-<sub>Author: **LALA** · MIT 2026</sub>
+<sub>Author: **LALA**</sub>
 
 </div>
 
@@ -104,10 +71,13 @@ src\link-unlocker.bat mf <key>  # Windows
 
 ## Lisensi
 
-MIT — pakai, ubah, jual, terserah. Nol ada yang dikunci.
+MIT 2026. Pakai, ubah, jual — terserah. Nol yang dikunci.
 
 <!--
-  desa-senja · digambar piksel demi piksel pakai PIL, bukan template orang
-  generator: tools/lala-profile-art/gen_village.py
-  400x100 grid @4x = 1600x400 · 100% offline · nol aset eksternal
+  desa-senja: digambar satu piksel satu piksel. nol template orang.
+  generator : tools/lala-profile-art/gen_village.py       (statis)
+              tools/lala-profile-art/gen_village_anim.py  (GIF)
+  grid 400x100 @4x  ·  GIF 900px / 24 frame / 12fps / 64 warna
+  animasi  : awan geser · padi goyang angin · burung ngepak · kerbau ngibas ekor
+             matahari turun · kunang-kunang · jendela kedip · bintang kelap-kelip
 -->
