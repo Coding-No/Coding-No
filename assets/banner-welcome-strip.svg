@@ -1,0 +1,52 @@
+<svg viewBox="0 0 880 86" width="880" height="86" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="WELCOME">
+  <defs>
+    <clipPath id="gsFull"><rect id="bg-clip" x="0" y="0" width="880" height="86"/></clipPath>
+  <clipPath id="gsR">
+    <rect x="312" y="35" width="118" height="37">
+      <animate attributeName="width"  values="118;41;118;118" dur="2.10s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="height" values="37;11;37;37" dur="2.10s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="x" values="312;368;312;461" dur="2.10s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+  </clipPath>
+  <clipPath id="gsB">
+    <rect x="312" y="35" width="118" height="37">
+      <animate attributeName="width"  values="118;41;118;118" dur="2.52s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="height" values="37;11;37;37" dur="2.52s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="x" values="312;368;312;461" dur="2.52s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+  </clipPath>
+  <clipPath id="gsG">
+    <rect x="312" y="35" width="118" height="37">
+      <animate attributeName="width"  values="118;41;118;118" dur="2.94s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="height" values="37;11;37;37" dur="2.94s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="x" values="312;368;312;461" dur="2.94s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+  </clipPath>
+  </defs>
+  <rect id="bg" x="0" y="0" width="880" height="86" fill="#0c0c0e"/>
+  <g clip-path="url(#gsR)">
+    <text x="308" y="65" fill="#ff3b6b" font-size="51"
+          font-weight="800" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"
+          letter-spacing="0.02em" style="opacity:0">WELCOME
+      <animate attributeName="opacity" values="0;1;1;0.2;1" dur="3.60s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="0.90s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <g clip-path="url(#gsB)">
+    <text x="316" y="69" fill="#38bdf8" font-size="51"
+          font-weight="800" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"
+          letter-spacing="0.02em" style="opacity:0">WELCOME
+      <animate attributeName="opacity" values="0;1;1;0.2;1" dur="4.30s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.21s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <g clip-path="url(#gsG)">
+    <text x="312" y="67" fill="#34d399" font-size="51"
+          font-weight="800" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"
+          letter-spacing="0.02em" style="opacity:0">WELCOME
+      <animate attributeName="opacity" values="0;1;1;0.2;1" dur="5.00s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.52s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <rect id="frame" x="0" y="0" width="880" height="86" fill="none" stroke="#1f2937" stroke-width="1"/>
+</svg>
