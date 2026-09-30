@@ -4,7 +4,7 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/Coding-No/Coding-No/main/assets/banner-terminal.svg" alt="terminal: whoami, Coding-No x Lala" width="880">
+<img src="https://raw.githubusercontent.com/Coding-No/Coding-No/main/assets/banner-terminalgh.svg" alt="terminal: whoami, Coding-No x Lala" width="880">
 
 <img src="https://raw.githubusercontent.com/Coding-No/Coding-No/main/assets/banner-welcome-strip.svg" alt="WELCOME" width="880">
 
