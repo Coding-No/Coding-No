@@ -4,11 +4,7 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/Coding-No/Coding-No/main/assets/banner-terminalgh.svg" alt="Coding-No x Lala — terminal" width="880">
-
-<br>
-
-# 🌾 `Coding-No x Lala`
+<img src="https://raw.githubusercontent.com/Coding-No/Coding-No/main/assets/banner-welcome.svg" alt="WELCOME" width="880">
 
 Ngerjain tool kecil yang langsung kepake — Windows, Termux, Linux, Kali.
 
