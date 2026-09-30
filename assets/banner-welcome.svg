@@ -1,0 +1,109 @@
+<svg fill="none" viewBox="0 0 880 260" width="880" height="260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="WELCOME">
+<defs>
+    <clipPath id="bnShell">
+        <rect x="0" y="0" width="880" height="260" rx="10"/>
+    </clipPath>
+    <!-- Tiga jendela clip sempit: geser horizontal + tinggi beda supaya
+         potongannya terbaca seperti tear, bukan garis lurus. -->
+    <clipPath id="bnGlitchClip-r">
+        <rect x="0" y="0" width="0" height="260">
+            <animate attributeName="x" values="53;458;141;598;53"
+                dur="3.20s" begin="0s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="35;264;62;211;35"
+                dur="3.20s" begin="0s" repeatCount="indefinite"/>
+        </rect>
+    </clipPath>
+    <clipPath id="bnGlitchClip-b">
+        <rect x="0" y="88" width="0" height="88">
+            <animate attributeName="x" values="510;123;546;194;510"
+                dur="3.20s" begin="0.15s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="194;53;246;79;194"
+                dur="3.20s" begin="0.15s" repeatCount="indefinite"/>
+        </rect>
+    </clipPath>
+    <linearGradient id="bnScanFade" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+        <stop offset="50%" stop-color="#ffffff" stop-opacity="0.075"/>
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+</defs>
+<g clip-path="url(#bnShell)">
+    <rect x="0" y="0" width="880" height="260" fill="#0c0c0e"/>
+
+    <!-- bar chrome macOS: 3 dot nyala bergiliran -->
+    <circle cx="82" cy="32" r="5.5" fill="#ff5f57" style="opacity:0">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="1.80s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="99" cy="32" r="5.5" fill="#febc2e" style="opacity:0">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="1.80s" begin="0.30s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="116" cy="32" r="5.5" fill="#28c840" style="opacity:0">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="1.80s" begin="0.60s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="810" cy="32" r="4.5" fill="#34d399" style="opacity:0">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="1.60s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="3.8;5.2;3.8" dur="1.60s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="0" y1="50" x2="880" y2="50" stroke="#ffffff" stroke-opacity="0.10"/>
+
+    <!-- prompt samar di atas judul -->
+    <text x="66" y="94" fill="#34d399" fill-opacity="0.55"
+        font-size="21" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        style="opacity:0">$ whoami
+        <animate attributeName="opacity" values="0.35;0.75;0.35" dur="2.40s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- LAPIS GLITCH: dua kanal warna di belakang, lalu teks utama di atas -->
+    
+  <text class="bn-gr" x="66" y="156" fill="#ff3b6b" font-size="96"
+        font-weight="800" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" letter-spacing="41"
+        clip-path="url(#bnGlitchClip-gr)" style="opacity:0">WELCOME
+    <animateTransform attributeName="transform" type="translate"
+        values="-4 0;0 0;-4 0;0 0;0 0;-4 0;-4 0;0 0"
+        keyTimes="0;0.08;0.16;0.24;0.72;0.80;0.88;1"
+        dur="3.20s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0.85;1;0.9;1" keyTimes="0;0.06;0.3;0.6;0.85;1"
+        dur="3.20s" begin="0s" repeatCount="indefinite"/>
+  </text>
+    
+  <text class="bn-gb" x="66" y="156" fill="#38bdf8" font-size="96"
+        font-weight="800" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" letter-spacing="41"
+        clip-path="url(#bnGlitchClip-gb)" style="opacity:0">WELCOME
+    <animateTransform attributeName="transform" type="translate"
+        values="4 0;0 0;4 0;0 0;0 0;4 0;4 0;0 0"
+        keyTimes="0;0.08;0.16;0.24;0.72;0.80;0.88;1"
+        dur="3.20s" begin="0.10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0.85;1;0.9;1" keyTimes="0;0.06;0.3;0.6;0.85;1"
+        dur="3.20s" begin="0.10s" repeatCount="indefinite"/>
+  </text>
+
+    <!-- teks utama: nyaris mantap, cuma berdenyut pelan -->
+    <text class="bn-main" x="66" y="156" fill="#34d399" font-size="96"
+        font-weight="800" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" letter-spacing="41" style="opacity:0">WELCOME
+        <animate attributeName="opacity" values="0.82;1;0.82" dur="2.40s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0.6 0;0 0;-0.6 0;0 0"
+            dur="0.28s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
+
+    <!-- garis bawah: nyala menjalar setelah judul -->
+    <rect x="66" y="170" width="0" height="2" fill="#34d399" style="opacity:0">
+        <animate attributeName="width" values="0;484;484;0"
+            keyTimes="0;0.18;0.82;1" dur="3.20s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.18;0.82;1" dur="3.20s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- scanline + bar kedip (sumber gerak yang paling jelas terlihat) -->
+    <rect x="0" y="0" width="880" height="26"
+        fill="url(#bnScanFade)" style="opacity:0">
+        <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.15;0.85;1" dur="6.00s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 -31;0 260"
+            dur="6.00s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1"/>
+    </rect>
+    <rect x="0" y="78" width="880" height="2" fill="#34d399" style="opacity:0">
+        <animate attributeName="opacity" values="0;0.22;0.22;0" keyTimes="0;0.1;0.9;1" dur="4.20s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 109;0 0" dur="4.20s" repeatCount="indefinite"/>
+    </rect>
+</g>
+<rect x="0.5" y="0.5" width="879" height="259" rx="10"
+    fill="none" stroke="#34d399" stroke-opacity="0.28"/>
+</svg>
